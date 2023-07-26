@@ -8,6 +8,7 @@ def getMatchHistory(region, me):
     return pastMatches
 
 
+
 class Profile:
     def __init__(self, apiKey, userName):
         self.apiKey = "api_key=" + apiKey
