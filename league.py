@@ -1,6 +1,5 @@
 import requests;
 
-
 def getMatchHistory(region, me):
     pastMatchesURL = "https://" + region + ".api.riotgames.com/lol/match/v5/matches/by-puuid/" + me.puuid + "/ids?start=0&count=20&" + me.apiKey
     print(pastMatchesURL)
